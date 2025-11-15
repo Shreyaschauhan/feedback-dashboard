@@ -4,7 +4,7 @@ import FeedbackTable from './components/FeedbackTable'
 import AnalyticsCards from './components/AnalyticsCards'
 import './App.css'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+const API_URL = import.meta.env.VITE_API_URL || 'https://feedback-dashboard-hrk5.onrender.com'
 
 function App() {
   const [feedbacks, setFeedbacks] = useState([])
